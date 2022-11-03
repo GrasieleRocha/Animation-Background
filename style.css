@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  position: relative;
+  background: #12c9c9 url(img/istockphoto-1200966145-612x612.jpg);
+  height: 100vh;
+  background-repeat: cover;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  animation: animate 5s linear infinite;
+}
+
+.car{
+  position: absolute;
+  bottom: 265px;
+  height: 230px;
+  left: 150px;
+}
+.moto{
+  position: absolute;
+  bottom: 350px;
+  height: 100px;
+  left: 600px;
+}
+
+.dog{
+  position: absolute;
+  bottom: 430px;
+  height: 30px;
+  left: 900px;
+}
+.bus{
+  position: absolute;
+  bottom: 350px;
+  height: 100px;
+  left: 1000px;
+}
+
+
+@keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
